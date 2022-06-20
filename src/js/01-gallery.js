@@ -19,7 +19,7 @@ function createGallery() {
     gallery.insertAdjacentHTML('afterbegin', galleryMarkup);
 };
 
-// 
+
 function createGaleryItem({ preview, original, description }) {
     return `
     <a class="gallery__item" href="${original}">
